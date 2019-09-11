@@ -1,0 +1,14 @@
+footer {
+  background-color: #f9d8ea;
+  height: 180px;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  margin-top: 20px;
+  padding: 40px 0;
+}
+
+@media (max-width: 768px) {
+  footer {
+    text-align: center;
+  }
+}

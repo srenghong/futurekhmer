@@ -1,0 +1,26 @@
+.heading {
+  transform: rotate(-90deg);
+  background-color: pink;
+}
+
+.innerLeft {
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+
+.innerRight {
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .innerLeft {
+    padding-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .innerRight {
+    padding-left: 0;
+    margin-bottom: 15px;
+  }
+}

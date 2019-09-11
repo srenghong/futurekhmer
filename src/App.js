@@ -1,12 +1,15 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>FutureKhmer</h1>
-    </div>
-  );
-}
+import Layout from './Components/Layout';
+import Banner from './Components/Banner';
+import Categories from './Components/Category/Categories';
+
+const App = () => (
+  <Layout>
+    <Banner />
+    <Categories />
+  </Layout>
+);
 
 export default App;
