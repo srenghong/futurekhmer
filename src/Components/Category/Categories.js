@@ -2,6 +2,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 import './Categories.css';
 
 import scienceImg from '../../Images/science.png';
@@ -13,6 +14,7 @@ const styleImg = {
   width: '100%',
   border: '5px solid white',
   'border-radius': '1rem',
+  'margin-bottom': '20px',
 };
 
 const scienceStyle = {
@@ -41,20 +43,23 @@ const litteratureStyle = {
 
 const Categories = () => (
   <>
-    <h2>Categories</h2>
-    <Container>
+    <h2 className="heading">Categories</h2>
+    <div className="container">
       <Row>
         <Col sm={12} md={6}>
           <div className="innerLeft">
             <Row style={scienceStyle}>
-              <Col>
+              <Col xs={6} md={12} lg={6}>
                 <img src={scienceImg} style={styleImg} alt="science" />
               </Col>
-              <Col>
+              <Col xs={6} md={12} lg={6}>
                 <h4>Science</h4>
                 <p>
                   Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
                   scelerisque ante sollicitudin commodo.
+                </p>
+                <p>
+                  <Button variant="primary">Explore</Button>
                 </p>
               </Col>
             </Row>
@@ -63,14 +68,17 @@ const Categories = () => (
         <Col sm={12} md={6}>
           <div className="innerRight">
             <Row style={economicStyle}>
-              <Col>
+              <Col xs={6} md={12} lg={6}>
                 <img src={economicImg} style={styleImg} alt="economic" />
               </Col>
-              <Col>
+              <Col xs={6} md={12} lg={6}>
                 <h4>Economic</h4>
                 <p>
                   Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
                   scelerisque ante sollicitudin commodo.
+                </p>
+                <p>
+                  <Button variant="primary">Explore</Button>
                 </p>
               </Col>
             </Row>
@@ -81,14 +89,17 @@ const Categories = () => (
         <Col sm={12} md={6}>
           <div className="innerLeft">
             <Row style={litteratureStyle}>
-              <Col>
+              <Col xs={6} md={12} lg={6}>
                 <img src={litteratureImg} style={styleImg} alt="litterature" />
               </Col>
-              <Col>
+              <Col xs={6} md={12} lg={6}>
                 <h4>Litterature</h4>
                 <p>
                   Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
                   scelerisque ante sollicitudin commodo.
+                </p>
+                <p>
+                  <Button variant="primary">Explore</Button>
                 </p>
               </Col>
             </Row>
@@ -97,21 +108,24 @@ const Categories = () => (
         <Col sm={12} md={6}>
           <div className="innerRight">
             <Row style={healthStyle}>
-              <Col>
+              <Col xs={6} md={12} lg={6}>
                 <img src={healthImg} style={styleImg} alt="health" />
               </Col>
-              <Col>
+              <Col xs={6} md={12} lg={6}>
                 <h4>Health</h4>
                 <p>
                   Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
                   scelerisque ante sollicitudin commodo.
+                </p>
+                <p>
+                  <Button variant="primary">Explore</Button>
                 </p>
               </Col>
             </Row>
           </div>
         </Col>
       </Row>
-    </Container>
+    </div>
   </>
 );
 

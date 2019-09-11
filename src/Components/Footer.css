@@ -3,12 +3,31 @@ footer {
   height: 180px;
   border-top-left-radius: 3rem;
   border-top-right-radius: 3rem;
-  margin-top: 20px;
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.socialIcons {
+  text-align: right;
+}
+
+.icon {
+  width: 80px;
 }
 
 @media (max-width: 768px) {
   footer {
     text-align: center;
+    height: 250px;
+  }
+
+  .socialIcons {
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .icon {
+    width: 60px;
   }
 }

@@ -5,14 +5,12 @@ import Container from 'react-bootstrap/Container';
 import Header from './Header';
 import Footer from './Footer';
 
-const containerStyle = {
-  'margin-top': '20px',
-};
-
 const Layout = (props) => (
   <>
     <Header />
-    <Container style={containerStyle}>{props.children}</Container>
+    <main>
+      <div className="container">{props.children}</div>
+    </main>
     <Footer />
   </>
 );

@@ -1,16 +1,15 @@
 .heading {
-  transform: rotate(-90deg);
-  background-color: pink;
+  margin-bottom: 20px;
 }
 
 .innerLeft {
-  padding-right: 10px;
-  margin-bottom: 20px;
+  padding-right: 12.5px;
+  margin-bottom: 25px;
 }
 
 .innerRight {
-  padding-left: 10px;
-  margin-bottom: 20px;
+  padding-left: 12.5px;
+  margin-bottom: 25px;
 }
 
 @media (max-width: 768px) {

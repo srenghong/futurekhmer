@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,4 +10,57 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+@media (min-width: 576px) {
+  .container {
+    min-width: 540px;
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    min-width: 720px;
+    max-width: 992px;
+  }
+
+  header,
+  main,
+  footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.navbar-light .navbar-toggler {
+  padding: 0;
+  font-size: 2em;
+  color: transparent;
+  border-color: transparent;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url('./Images/icons8-menu-100.png');
+}
+
+button:focus {
+  outline: none;
 }
