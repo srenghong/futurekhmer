@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Container from 'react-bootstrap/Container';
 import './Header.css';
 
 const navbarStyle = {
@@ -16,8 +15,8 @@ const Header = () => (
         className="justify-content-between"
         style={navbarStyle}
       >
-        <Navbar.Brand bsPrefix="logo" href="#home">
-          FutureKhmer
+        <Navbar.Brand bsPrefix="custom-brand" href="#home">
+          FutureKhmer.
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">

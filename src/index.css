@@ -12,12 +12,6 @@ code {
     monospace;
 }
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
 h1,
 h2,
 h3,
@@ -50,6 +44,7 @@ h6 {
   }
 }
 
+/* Start: Custom navigation icon */
 .navbar-light .navbar-toggler {
   padding: 0;
   font-size: 2em;
@@ -64,3 +59,4 @@ h6 {
 button:focus {
   outline: none;
 }
+/* End: Custom navigation icon */

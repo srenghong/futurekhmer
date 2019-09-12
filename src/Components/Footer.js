@@ -14,7 +14,7 @@ const Footer = () => (
       <div className="inner">
         <Row>
           <Col sm={12} md={6}>
-            <p>FutureKhmer</p>
+            <p className="logo">FutureKhmer.</p>
             <p>Handcrafted by me &copy; 2019</p>
             <p>
               Made with{' '}
