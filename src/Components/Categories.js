@@ -4,10 +4,10 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import './Categories.css';
 
-import scienceImg from '../../Images/science.png';
-import economicImg from '../../Images/economic.png';
-import healthImg from '../../Images/health.png';
-import litteratureImg from '../../Images/litterature.png';
+import scienceImg from '../Images/science.png';
+import economicImg from '../Images/economic.png';
+import healthImg from '../Images/health.png';
+import litteratureImg from '../Images/litterature.png';
 
 const styleImg = {
   width: '100%',

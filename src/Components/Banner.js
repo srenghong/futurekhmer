@@ -11,8 +11,11 @@ const Banner = () => (
   <div className="banner">
     <Row>
       <Col md={5} lg={4}>
-        <h1>Get Free Education</h1>
-        <p>This is a simple hero unit, a simple jumbotron-style component.</p>
+        <h1>Find Your Best University</h1>
+        <p>
+          Find out each university information at one place and decide what you
+          want to pursue.
+        </p>
         <p>
           <Button variant="primary">Learn more</Button>
         </p>

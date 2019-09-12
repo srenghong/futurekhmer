@@ -1,15 +1,17 @@
 import React from 'react';
-import './App.css';
 
-import Layout from './Components/Layout';
-import Banner from './Components/Banner';
-import Categories from './Components/Category/Categories';
+import Header from './Components/Header';
+import Main from './Components/Main';
+import Footer from './Components/Footer';
 
 const App = () => (
-  <Layout>
-    <Banner />
-    <Categories />
-  </Layout>
+  <>
+    <div className="container">
+      <Header />
+      <Main />
+    </div>
+    <Footer />
+  </>
 );
 
 export default App;
