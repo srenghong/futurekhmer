@@ -11,32 +11,32 @@ import litteratureImg from '../Images/litterature.png';
 
 const styleImg = {
   width: '100%',
-  border: '5px solid white',
-  'border-radius': '1rem',
+  border: '3px solid white',
+  'border-radius': '0.5rem',
   'margin-bottom': '20px',
 };
 
 const scienceStyle = {
   'background-color': '#F6E049',
-  'border-radius': '1rem',
+  'border-radius': '0.5rem',
   padding: '30px 10px',
 };
 
 const economicStyle = {
   'background-color': '#7FD6C2',
-  'border-radius': '1rem',
+  'border-radius': '0.5rem',
   padding: '30px 10px',
 };
 
 const healthStyle = {
   'background-color': '#AAC6FC',
-  'border-radius': '1rem',
+  'border-radius': '0.5rem',
   padding: '30px 10px',
 };
 
 const litteratureStyle = {
   'background-color': '#EEBED3',
-  'border-radius': '1rem',
+  'border-radius': '0.5rem',
   padding: '30px 10px',
 };
 

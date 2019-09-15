@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import './Header.css';
 
 const navbarStyle = {
-  padding: '20px 0',
+  padding: '25px 0',
 };
 
 const Header = () => (

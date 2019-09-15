@@ -19,8 +19,22 @@ h4,
 h5,
 h6 {
   margin-bottom: 0.5rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 576px) {
