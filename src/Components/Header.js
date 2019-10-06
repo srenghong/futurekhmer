@@ -20,11 +20,11 @@ const Header = () => (
           <Link to="/" className="custom-nav-link">
             Home
           </Link>
-          <Link to="/about" className="custom-nav-link">
-            About
+          <Link to="/universities" className="custom-nav-link">
+            Universities
           </Link>
-          <Link to="/contact" className="custom-nav-link">
-            Contact Us
+          <Link to="/subjects" className="custom-nav-link">
+            Subjects
           </Link>
           <Link to="/blogs" className="custom-nav-link">
             Blogs

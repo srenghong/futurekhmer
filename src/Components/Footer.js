@@ -21,7 +21,7 @@ const Footer = () => (
               <a href="https://icons8.com" alt="Icons8 Website">
                 Icons8
               </a>{' '}
-              and design from{' '}
+              and designed by{' '}
               <a
                 href="https://dribbble.com/shots/6998421-Education-Web-Platform-Design"
                 alt="dribbble link"

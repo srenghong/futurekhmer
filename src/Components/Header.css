@@ -12,7 +12,7 @@
 
 .custom-nav-link {
   color: #000;
-  padding-left: 50px;
+  margin-left: 50px;
 }
 
 .custom-nav-link:hover {
@@ -22,7 +22,7 @@
 
 @media (max-width: 768px) {
   .custom-nav-link {
-    padding: 10px 0;
+    margin: 10px 0;
     text-align: center;
   }
 }
